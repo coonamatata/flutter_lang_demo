@@ -10,20 +10,131 @@ Future<void> process() async {
 
     // Split the content into lines
     final lines = LineSplitter.split(fileContent);
+    bool appBarDone = false;
 
     // Iterate through each line and process it
     for (String line in lines) {
       if(line.startsWith("title"))
         {
-          while(line != '}')
-            {
-
-
+          if(appBarDone){
+            while(line != '}') {
+              if(line.substring(0,7).contains("en_")) {
+                inputInfo(line.substring(1,5));
+              } else {
+                inputInfo(line.substring(1,3));
+              }
             }
-
+          } else {
+            while(line != '}')
+            {
+              if(line.substring(0,7).contains("en_")) {
+                inputInfo(line.substring(1,5));
+              } else {
+                inputInfo(line.substring(1,3));
+              }
+            }
+            appBarDone = true;
+          }
         }
-
-
+      if(line.startsWith("cancel"))
+      {
+        while(line != '}')
+        {
+          if(line.substring(0,7).contains("en_")) {
+            inputInfo(line.substring(1,5));
+          } else {
+            inputInfo(line.substring(1,3));
+          }
+        }
+      }
+      if(line.startsWith("change_language"))
+      {
+        while(line != '}')
+        {
+          if(line.substring(0,7).contains("en_")) {
+            inputInfo(line.substring(1,5));
+          } else {
+            inputInfo(line.substring(1,3));
+          }
+        }
+      }
+      if(line.startsWith("name"))
+      {
+        while(line != '}')
+        {
+          if(line.substring(0,7).contains("en_")) {
+            inputInfo(line.substring(1,5));
+          } else {
+            inputInfo(line.substring(1,3));
+          }
+        }
+      }
+      if(line.startsWith("selected_message"))
+      {
+        while(line != '}')
+        {
+          if(line.substring(0,7).contains("en_")) {
+            inputInfo(line.substring(1,5));
+          } else {
+            inputInfo(line.substring(1,3));
+          }
+        }
+      }
+      if(line.startsWith("zero"))
+      {
+        while(line != '}')
+        {
+          if(line.substring(0,7).contains("en_")) {
+            inputInfo(line.substring(1,5));
+          } else {
+            inputInfo(line.substring(1,3));
+          }
+        }
+      }
+      if(line.startsWith("message"))
+      {
+        while(line != '}')
+        {
+          if(line.substring(0,7).contains("en_")) {
+            inputInfo(line.substring(1,5));
+          } else {
+            inputInfo(line.substring(1,3));
+          }
+        }
+      }
+      if(line.startsWith("one"))
+      {
+        while(line != '}')
+        {
+          if(line.substring(0,7).contains("en_")) {
+            inputInfo(line.substring(1,5));
+          } else {
+            inputInfo(line.substring(1,3));
+          }
+        }
+      }
+      if(line.startsWith("two"))
+      {
+        while(line != '}')
+        {
+          if(line.substring(0,7).contains("en_")) {
+            inputInfo(line.substring(1,5));
+          } else {
+            inputInfo(line.substring(1,3));
+          }
+        }
+      }
+      if(line.startsWith("other"))
+      {
+        while(line != '}')
+        {
+          if(line.substring(0,7).contains("en_")) {
+            inputInfo(line.substring(1,5));
+          } else {
+            inputInfo(line.substring(1,3));
+          }
+        }
+      }
 
       print(line);
     }
