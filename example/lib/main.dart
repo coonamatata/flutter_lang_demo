@@ -42,6 +42,7 @@ class MyApp extends StatelessWidget {
         home: MyHomePage(),
       ),
     );
+
   }
 }
 
@@ -160,6 +161,10 @@ class _MyHomePageState extends State<MyHomePage> {
           CupertinoActionSheetAction(
             child: Text(translate('language.name.vi')), // Vietnamese
             onPressed: () => Navigator.pop(context, 'vi'),
+          ),
+          CupertinoActionSheetAction(
+            child: Text(translate('language.name.translations')), // American English
+            onPressed: () => Navigator.pop(context, 'all'),
           ),
         ],
         cancelButton: CupertinoActionSheetAction(
