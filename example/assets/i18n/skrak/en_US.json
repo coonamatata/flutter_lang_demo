@@ -1,0 +1,35 @@
+{
+	"app_bar": {
+	  "title": "Welcome to the Home Page"
+	},
+	"button": {
+	  "cancel": "Cancel",
+	  "change_language": "Change Language"
+	},
+	"language": {
+	  "name": {
+		"en_US": "American English",
+		"en_GB": "British English",
+		"zh": "Simplified Chinese",
+		"ja": "Japanese",
+		"de": "German",
+		"es": "Spanish",
+		"hi": "Hindi",
+		"mi": "Māori",
+		"vi": "Vietnamese"
+	  },
+	  "selected_message": "The currently selected language is {language}",
+	  "selection": {
+		"message": "Please select a language from the list",
+		"title": "Language Selection"
+	  }
+	},
+	"plural": {
+	  "demo": {
+		"zero": "Please start pressing the 'more' button.",
+		"one": "You've pressed the button once.",
+		"two": "You've pressed the button twice.",
+		"other": "You've pressed the button {{value}} times."
+	  }
+	}
+  }
