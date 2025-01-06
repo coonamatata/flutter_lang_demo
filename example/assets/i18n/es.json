@@ -12,11 +12,15 @@
 	{
 		"name": 
 		{
-			"en": "Inglés",
+			"en_US": "Inglés estadounidense",
+			"en_GB": "Inglés británico",
+			"zh": "Chino simplificado",
+			"ja": "Japonés",
+			"de": "Alemán",
 			"es": "Español",
-			"fa": "Persa",
-			"ar": "Arábica",
-			"ru": "Ruso"
+			"hi": "Hindi",
+			"mi": "Maorí",
+			"vi": "Vietnamita"
 		},
 		"selected_message": "El idioma seleccionado actualmente es {language}",
 		"selection": 
