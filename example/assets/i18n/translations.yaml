@@ -1,0 +1,115 @@
+app_bar:
+  title:
+    en_US: Welcome to the homepage
+    en_GB: Welcome to the homepage
+    zh: 欢迎来到主页
+    ja: ホームページへようこそ
+    de: Willkommen auf der Startseite
+    es: Bienvenido a la página de inicio
+    hi: होम पेज पर स्वागत है
+    mi: Haere mai ki te paetukutuku
+    vi: Chào mừng đến với trang chủ
+button:
+  cancel:
+    en_US: Cancel
+    en_GB: Cancel
+    zh: 取消
+    ja: キャンセル
+    de: Abbrechen
+    es: Cancelar
+    hi: रद्द करें
+    mi: Tango
+    vi: Hủy
+  change_language:
+    en_US: Change Language
+    en_GB: Change Language
+    zh: 更改语言
+    ja: 言語を変更
+    de: Sprache ändern
+    es: Cambiar idioma
+    hi: भाषा बदलें
+    mi: Huri Reo
+    vi: Thay đổi ngôn ngữ
+language:
+  name:
+    en_US: American English
+    en_GB: British English
+    zh: Simplified Chinese
+    ja: Japanese
+    de: German
+    es: Spanish
+    hi: Hindi
+    mi: Māori
+    vi: Vietnamese
+  selected_message:
+    en_US: 'The currently selected language is {language}'
+    en_GB: 'The currently selected language is {language}'
+    zh: '当前选择的语言是 {language}'
+    ja: '現在選択されている言語は {language}'
+    de: 'Die derzeit ausgewählte Sprache ist {language}'
+    es: 'El idioma seleccionado actualmente es {language}'
+    hi: 'वर्तमान में चयनित भाषा है {language}'
+    mi: 'Ko te reo i kowhiria inaianei ko {language}'
+    vi: 'Ngôn ngữ hiện tại đã chọn là {language}'
+  selection:
+    title:
+      en_US: Language Selection
+      en_GB: Language Selection
+      zh: 语言选择
+      ja: 言語選択
+      de: Sprachauswahl
+      es: Selección de idioma
+      hi: भाषा चयन
+      mi: Kōwhiringa Reo
+      vi: Chọn ngôn ngữ
+    message:
+      en_US: Please choose a language from the list
+      en_GB: Please choose a language from the list
+      zh: 请选择列表中的语言
+      ja: リストから言語を選択してください
+      de: Bitte wählen Sie eine Sprache aus der Liste
+      es: 'Por favor, elija un idioma de la lista'
+      hi: सूची से एक भाषा चुनें
+      mi: Tēnā kōwhiri i tētahi reo mai i te rārangi
+      vi: Vui lòng chọn một ngôn ngữ từ danh sách
+plural:
+  demo:
+    zero:
+      en_US: Please start pressing the 'More' button.
+      en_GB: Please start pressing the 'More' button.
+      zh: 请开始按“更多”按钮。
+      ja: 「さらに」を押し始めてください。
+      de: 'Bitte beginnen Sie, den ''Mehr''-Button zu drücken.'
+      es: 'Por favor, comience a presionar el botón ''Más''.'
+      hi: कृपया 'और' बटन दबाना शुरू करें।
+      mi: Tēnā tīmata pātea i te paetahi 'Aroha'.
+      vi: Vui lòng bắt đầu nhấn nút 'Thêm'.
+    one:
+      en_US: You pressed the button once.
+      en_GB: You pressed the button once.
+      zh: 您按了按钮一次。
+      ja: ボタンを1回押しました。
+      de: Sie haben den Button einmal gedrückt.
+      es: Has presionado el botón una vez.
+      hi: आपने बटन एक बार दबाया।
+      mi: I pao e koe te paetahi rārangi.
+      vi: Bạn đã nhấn nút một lần.
+    two:
+      en_US: You pressed the button twice.
+      en_GB: You pressed the button twice.
+      zh: 您按了按钮两次。
+      ja: ボタンを2回押しました。
+      de: Sie haben den Button zweimal gedrückt.
+      es: Has presionado el botón dos veces.
+      hi: आपने बटन दो बार दबाया।
+      mi: Tēnā pao te paetahi rārangi i te rua.
+    other:
+      en_US: 'You pressed the button {value} times.'
+      en_GB: 'You pressed the button {value} times.'
+      zh: '您按了按钮{value}次。'
+      ja: 'ボタンを{value}回押しました。'
+      de: 'Sie haben den Button {value} Mal gedrückt.'
+      es: 'Has presionado el botón {value} veces.'
+      hi: 'आपने बटन {value} बार दबाया।'
+      mi: 'I pao e koe te paetahi rārangi {value} wā.'
+      vi: 'Bạn đã nhấn nút {value} lần.'

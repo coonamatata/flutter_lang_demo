@@ -1,0 +1,26 @@
+app_bar:
+  title: Chào mừng đến trang chủ
+button:
+  cancel: Hủy bỏ
+  change_language: Thay đổi ngôn ngữ
+language:
+  name:
+    en_US: Tiếng Anh Mỹ
+    en_GB: Tiếng Anh Anh
+    zh: Tiếng Trung giản thể
+    ja: Tiếng Nhật
+    de: Tiếng Đức
+    es: Tiếng Tây Ban Nha
+    hi: Tiếng Hindi
+    mi: Tiếng Māori
+    vi: Tiếng Việt
+  selected_message: 'Ngôn ngữ hiện đang được chọn là {language}'
+  selection:
+    message: Hãy chọn một ngôn ngữ từ danh sách
+    title: Lựa chọn ngôn ngữ
+plural:
+  demo:
+    zero: Hãy bắt đầu nhấn nút 'thêm'.
+    one: Bạn đã nhấn nút một lần.
+    two: Bạn đã nhấn nút hai lần.
+    other: 'Bạn đã nhấn nút {{value}} lần.'
