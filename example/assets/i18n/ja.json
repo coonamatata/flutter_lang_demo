@@ -1,0 +1,35 @@
+{
+    "app_bar": {
+        "title": "ホームページへようこそ"
+    },
+    "button": {
+        "cancel": "キャンセル",
+        "change_language": "言語を変更"
+    },
+    "language": {
+        "name": {
+            "en_US": "American English",
+            "en_GB": "British English",
+            "zh": "Simplified Chinese",
+            "ja": "Japanese",
+            "de": "German",
+            "es": "Spanish",
+            "hi": "Hindi",
+            "mi": "Māori",
+            "vi": "Vietnamese"
+        },
+        "selected_message": "現在選択されている言語は {language}",
+        "selection": {
+            "message": "リストから言語を選択してください",
+            "title": "言語選択"
+        }
+    },
+    "plural": {
+        "demo": {
+            "zero": "「さらに」を押し始めてください。",
+            "one": "ボタンを1回押しました。",
+            "two": "ボタンを2回押しました。",
+            "other": "ボタンを{value}回押しました。"
+        }
+    }
+}

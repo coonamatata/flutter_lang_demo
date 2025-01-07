@@ -1,0 +1,35 @@
+{
+    "app_bar": {
+        "title": "होम पेज पर स्वागत है"
+    },
+    "button": {
+        "cancel": "रद्द करें",
+        "change_language": "भाषा बदलें"
+    },
+    "language": {
+        "name": {
+            "en_US": "American English",
+            "en_GB": "British English",
+            "zh": "Simplified Chinese",
+            "ja": "Japanese",
+            "de": "German",
+            "es": "Spanish",
+            "hi": "Hindi",
+            "mi": "Māori",
+            "vi": "Vietnamese"
+        },
+        "selected_message": "वर्तमान में चयनित भाषा है {language}",
+        "selection": {
+            "message": "सूची से एक भाषा चुनें",
+            "title": "भाषा चयन"
+        }
+    },
+    "plural": {
+        "demo": {
+            "zero": "कृपया 'और' बटन दबाना शुरू करें।",
+            "one": "आपने बटन एक बार दबाया।",
+            "two": "आपने बटन दो बार दबाया।",
+            "other": "आपने बटन {value} बार दबाया।"
+        }
+    }
+}

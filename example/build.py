@@ -1,11 +1,9 @@
 import yaml
 import json
 
-
-with open('assets/i18n/translations.json', 'r', encoding='utf-8') as f:
+with open('assets/i18n/translations.yaml', 'r', encoding='utf-8') as f:
     data = yaml.load(f, Loader=yaml.FullLoader)
 
-#
 def processAndOutput(target):
     store = {
         "app_bar": {
@@ -45,6 +43,10 @@ def processAndOutput(target):
 
     with open(f'assets/i18n/{target}.json', 'w', encoding='utf-8') as f0:
         json.dump(store, f0, ensure_ascii=False, indent=4)
+
+
+
+
 
 #processing and outputting
 processAndOutput("en_GB")

@@ -1,0 +1,35 @@
+{
+    "app_bar": {
+        "title": "欢迎来到主页"
+    },
+    "button": {
+        "cancel": "取消",
+        "change_language": "更改语言"
+    },
+    "language": {
+        "name": {
+            "en_US": "American English",
+            "en_GB": "British English",
+            "zh": "Simplified Chinese",
+            "ja": "Japanese",
+            "de": "German",
+            "es": "Spanish",
+            "hi": "Hindi",
+            "mi": "Māori",
+            "vi": "Vietnamese"
+        },
+        "selected_message": "当前选择的语言是 {language}",
+        "selection": {
+            "message": "请选择列表中的语言",
+            "title": "语言选择"
+        }
+    },
+    "plural": {
+        "demo": {
+            "zero": "请开始按“更多”按钮。",
+            "one": "您按了按钮一次。",
+            "two": "您按了按钮两次。",
+            "other": "您按了按钮{value}次。"
+        }
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "app_bar": {
+        "title": "Haere mai ki te paetukutuku"
+    },
+    "button": {
+        "cancel": "Tango",
+        "change_language": "Huri Reo"
+    },
+    "language": {
+        "name": {
+            "en_US": "American English",
+            "en_GB": "British English",
+            "zh": "Simplified Chinese",
+            "ja": "Japanese",
+            "de": "German",
+            "es": "Spanish",
+            "hi": "Hindi",
+            "mi": "Māori",
+            "vi": "Vietnamese"
+        },
+        "selected_message": "Ko te reo i kowhiria inaianei ko {language}",
+        "selection": {
+            "message": "Tēnā kōwhiri i tētahi reo mai i te rārangi",
+            "title": "Kōwhiringa Reo"
+        }
+    },
+    "plural": {
+        "demo": {
+            "zero": "Tēnā tīmata pātea i te paetahi 'Aroha'.",
+            "one": "I pao e koe te paetahi rārangi.",
+            "two": "Tēnā pao te paetahi rārangi i te rua.",
+            "other": "I pao e koe te paetahi rārangi {value} wā."
+        }
+    }
+}

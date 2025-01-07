@@ -1,0 +1,35 @@
+{
+    "app_bar": {
+        "title": "Chào mừng đến với trang chủ"
+    },
+    "button": {
+        "cancel": "Hủy",
+        "change_language": "Thay đổi ngôn ngữ"
+    },
+    "language": {
+        "name": {
+            "en_US": "American English",
+            "en_GB": "British English",
+            "zh": "Simplified Chinese",
+            "ja": "Japanese",
+            "de": "German",
+            "es": "Spanish",
+            "hi": "Hindi",
+            "mi": "Māori",
+            "vi": "Vietnamese"
+        },
+        "selected_message": "Ngôn ngữ hiện tại đã chọn là {language}",
+        "selection": {
+            "message": "Vui lòng chọn một ngôn ngữ từ danh sách",
+            "title": "Chọn ngôn ngữ"
+        }
+    },
+    "plural": {
+        "demo": {
+            "zero": "Vui lòng bắt đầu nhấn nút 'Thêm'.",
+            "one": "Bạn đã nhấn nút một lần.",
+            "two": "Bạn đã nhấn nút hai lần",
+            "other": "Bạn đã nhấn nút {value} lần."
+        }
+    }
+}

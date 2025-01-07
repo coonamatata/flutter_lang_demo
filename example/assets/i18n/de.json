@@ -1,0 +1,35 @@
+{
+    "app_bar": {
+        "title": "Willkommen auf der Startseite"
+    },
+    "button": {
+        "cancel": "Abbrechen",
+        "change_language": "Sprache ändern"
+    },
+    "language": {
+        "name": {
+            "en_US": "American English",
+            "en_GB": "British English",
+            "zh": "Simplified Chinese",
+            "ja": "Japanese",
+            "de": "German",
+            "es": "Spanish",
+            "hi": "Hindi",
+            "mi": "Māori",
+            "vi": "Vietnamese"
+        },
+        "selected_message": "Die derzeit ausgewählte Sprache ist {language}",
+        "selection": {
+            "message": "Bitte wählen Sie eine Sprache aus der Liste",
+            "title": "Sprachauswahl"
+        }
+    },
+    "plural": {
+        "demo": {
+            "zero": "Bitte beginnen Sie, den 'Mehr'-Button zu drücken.",
+            "one": "Sie haben den Button einmal gedrückt.",
+            "two": "Sie haben den Button zweimal gedrückt.",
+            "other": "Sie haben den Button {value} Mal gedrückt."
+        }
+    }
+}
